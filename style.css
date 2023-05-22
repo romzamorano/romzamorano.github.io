@@ -21,41 +21,52 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Pacifico', cursive;
+  color: #B04759;
 }
 
 .seccion-oscura {
   color: white;
-  background-color: #B2A4FF;
+  background-color: #E76161;
 }
 
 .seccion-clara {
-  color: #B2A4FF;
+  color: #27374D;
   background-color: white;
 }
 
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Pacifico', cursive;
 }
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  color: #27374D;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .seccion-texto {
   font-size: 1.2rem;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .btn-info {
   font-size: 1.1rem;
-  margin: 20px;
+  margin: 30px 0 100px 0;
+  background-color: #B04759;
+  border-color: #B04759;
+  color: white;
+}
+
+.btn-info:hover{
+  background-color: white;
+  border-color: #B04759;
 }
 
 .texto-negro {
-  color: black;
+  color: #27374D;
 }
 
 .texto-blanco {
@@ -100,16 +111,16 @@ h1 {
 /* Experiencia */
 
 .experiencia {
-  padding: 40px 40px 60px 40px;
+  padding: 40px 40px 40px 40px;
 }
 
 .experiencia .columna {
-  padding: 20px;
+  padding: 25px;
   border: 2px solid #8080804d;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   transition: all 0.2s ease-in;
 }
 
@@ -120,7 +131,7 @@ h1 {
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
+  color: white;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -130,6 +141,16 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
+  font-family: 'Pacifico', cursive;
+}
+
+.experiencia-descripcion{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.experiencia .row{
+  justify-content: center;
+
 }
 
 .badges-contenedor {
@@ -140,12 +161,17 @@ h1 {
 
 .badge {
   margin: 5px;
+  background-color: #E76161 !important;
 }
 
 /* Proyectos */
+.proyectos-titulo{
+  font-family: 'Quicksand', sans-serif;
+  color:#E76161
+}
 
 .proyectos-recientes {
-  padding: 40px;
+  padding: 30px;
 }
 
 .proyectos-recientes img {
@@ -158,8 +184,12 @@ h1 {
 }
 
 .proyectos-contenedor {
-  padding-top: 60px;
-  margin-bottom: 40px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.proyectos-contenedor .row{
+  justify-content:center ;
 }
 
 .overlay {
@@ -192,6 +222,7 @@ h1 {
 
 .overlay .iconos-contenedor {
   display: flex;
+  justify-content: center;
 }
 
 .overlay i {
@@ -200,26 +231,9 @@ h1 {
   margin: 10px;
 }
 
-/* Articulos */
-
-.articulos {
-  min-height: 500px;
-  padding: 30px;
-}
-
-.articulos .card {
-  width: 80%;
-  max-width: 600px;
-  margin: 20px;
-}
-
-.articulos .card-header {
-  font-weight: bold;
-}
-
 /* Testimonios */
 
-.testimonios {
+/* .testimonios {
   padding: 40px 40px 80px 40px;
 }
 
@@ -264,24 +278,24 @@ h1 {
 
 .testimonio-footer .cliente {
   font-size: 1.2rem;
-}
+} */
 
-.testimonio-info .cargo {
+/* .testimonio-info .cargo {
   font-size: 0.9rem;
   color: #656060;
-}
+} */
 
 /* Contacto */
 
 .contacto .container {
   max-width: 1100px;
-  min-height: 200px;
+  min-height: 150px;
   padding: 20px;
 }
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #FFB4B4;
+  background-color: #B04759;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -326,7 +340,7 @@ h1 {
 /* Pie de pagina (footer) */
 
 footer {
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .footer-logo {
@@ -413,6 +427,6 @@ footer {
 
 .animation {
 
-  color: #B2A4FF !important;
+  color: #F99B7D !important;
 
 }
